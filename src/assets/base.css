@@ -1,0 +1,29 @@
+:root {
+    --navbar-height: 64px;
+    --background-color: rgb(231, 242, 245);
+    --text-color: rgb(44, 44, 44);
+    --secondary-color: white;
+    --tertiary-color: rgb(226, 226, 226);
+    --active-color: rgb(197, 197, 197);
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+:root.dark-theme {
+    --background-color: rgb(27, 27, 27);
+    --text-color: whitesmoke;
+    --secondary-color: rgb(49, 49, 49);
+    --tertiary-color: rgb(65, 65, 65);
+    --active-color: rgb(122, 29, 107);
+}
+
+body {
+    margin: 0;
+}
+
+html {
+    margin-left: 20%;
+    margin-right: 20%;
+}
